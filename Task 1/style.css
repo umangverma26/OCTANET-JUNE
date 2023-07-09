@@ -1,0 +1,138 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top:0;
+    z-index: 99;
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: #ff0045;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu a:first-child{
+    color: #ff0045;
+}
+.menu a:hover{
+    color: #ff0045;
+}
+.icons i{
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    border:1px solid grey;
+    transition: 0.5s;
+}
+.icons i:hover{
+    background: #0b8aec;
+    color: white;
+}
+#sofa{
+    max-width: 900px;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+
+}
+.htext{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    max-width: 600px;
+    z-index: 99;
+    background: rgba(255,255,255,0.2);
+    
+}
+.htext h1{
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+}
+.htext h1 span{
+    color:  #ff0045;
+    text-shadow: 2px 3px 5px white; 
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  section {
+    padding: 100px 0;
+  }
+
+  .drm{
+    font-size: larger;
+    font-weight: 800;
+    padding-left: 32%;
+    font-size: 300%;
+  }
+
+  .gallery {
+    display: flex;
+  }
+  
+  .gallery img {
+    flex: 1;
+    margin: 10px;
+    max-width: 33.33%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .dsngs a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    text-transform: uppercase;
+   
+}
+.dsngs a:hover{
+  color: #ff0045;
+}
+ 
+ 
